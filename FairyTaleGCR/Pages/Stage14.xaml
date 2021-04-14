@@ -1,0 +1,46 @@
+﻿<Page x:Class="FairyTaleGCR.Stage14"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FairyTaleGCR"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Stage14">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/img/room2.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="Если выбрать оттолкнуть маньяка: то маньяк задевает шкаф, он падает и шкаф падает на него сверху. В итоге персонаж выбегает в окно"
+            TextWrapping="Wrap"
+            FontSize="18"
+            Grid.ColumnSpan="2"
+            Grid.Row="0"
+            Margin="30"
+            Foreground="White" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            />
+        <Button
+            x:Name="btnENT"
+            Content="The End"
+            FontSize="20"
+            Grid.Row="1"
+            Width="150"
+            Height="30"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Margin="70 30" 
+            BorderBrush="White" 
+            Foreground="White" Click="btnENT_Click" 
+            >
+            <Button.Background>
+                <SolidColorBrush Opacity="0"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>

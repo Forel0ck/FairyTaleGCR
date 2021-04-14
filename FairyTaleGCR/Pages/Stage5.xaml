@@ -1,0 +1,75 @@
+﻿<Page x:Class="FairyTaleGCR.Stage5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FairyTaleGCR"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Stage5">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/img/Holl.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="При осмотре вы обнаружили много странных вещей. Среди них был старый альбом с черно-белыми фотографиями, на которых были изображены только мужчины. Так же рядом лежала связка ключей и фонарик."
+            TextWrapping="Wrap"
+            FontSize="18"
+            Grid.ColumnSpan="2"
+            Grid.Row="0"
+            Margin="30"
+            
+            Foreground="White" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            />
+        <Button
+            x:Name="btnKey"            
+            FontSize="20"
+            Grid.Row="1"
+            Width="230"
+            Height="60"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Margin="70 20" 
+            BorderBrush="White" 
+            Foreground="White" Click="btnKey_Click"  
+            >
+            <TextBlock
+                Text="Взять связку ключей и пойти к двери"
+                TextWrapping="Wrap"
+                />
+            <Button.Background>
+                <SolidColorBrush Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <Button
+            x:Name="btnLP"           
+            FontSize="20"
+            Grid.Row="1"
+            Grid.Column="2"
+            Width="230"
+            Height="60"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Left"
+            Margin="70 20" 
+            BorderBrush="White" 
+            Foreground="White" Click="btnLP_Click" 
+            >
+            <TextBlock
+                Text="Взять и проверить фонарик"
+                TextWrapping="Wrap"
+                />
+            <Button.Background>
+                <SolidColorBrush Opacity="0"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>

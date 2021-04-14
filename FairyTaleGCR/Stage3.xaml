@@ -1,0 +1,46 @@
+﻿<Page x:Class="FairyTaleGCR.Stage3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FairyTaleGCR"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Stage3">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img\room.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="Вы увидели перед собой металлический стол на котором лежали медицинские инструменты, среди которых находился скальп. Так же во время осмотра, вы обнаружили сзади себя шкаф с стеклянными банками в которых находились человеческие органы. Вы подошли к столу и взяли скальпел, чтобы перерезать веревки. Во время освобождения вы порезались, у вас идет кровь. В конце комнаты вы увидели затертую дверь. Она была открыта. Вы выходите за пределы комнаты..."
+            Grid.ColumnSpan="2"
+            TextWrapping="Wrap"
+            Margin="20"
+            Foreground="White"
+            FontSize="20" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            />
+        <Button
+            x:Name="btnNext1"
+            Content="Next"
+            FontSize="20"
+            Grid.Row="1"
+            Width="150"
+            Height="30"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Margin="30" 
+            BorderBrush="White" 
+            Foreground="White"
+            Click="btnNext1_Click" 
+            >
+            <Button.Background>
+                <SolidColorBrush Opacity="0"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>

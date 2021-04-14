@@ -1,0 +1,52 @@
+﻿<Page x:Class="FairyTaleGCR.Preface"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FairyTaleGCR"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Preface">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img\house.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="Получив от таинственной организации приглашение сыграть в квест, победитель которого получит солидную сумму, ты решаешь попытать удачу. Но совсем скоро тебе становится понятно, что тебя выбрали для игры не случайно, задания не такие безобидные, и тебе грозит вполне реальная опасность, а ставка в игре — твоя собственная жизнь."
+            TextWrapping="Wrap"
+            FontSize="20"
+            Grid.ColumnSpan="2"
+            Grid.Row="0"
+            Margin="30"
+            Foreground="White" FontFamily="Segoe Script"
+            />
+        <Button
+            Content="Next"
+            FontSize="20"
+            Grid.Column="1"
+            Grid.Row="1"
+            Width="150"
+            Height="30"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Right"
+            Margin="30" 
+            BorderBrush="White" 
+            Foreground="White" 
+            Click="Button_Click"
+            
+            >
+            <Button.Background>
+                <SolidColorBrush Opacity="0"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>
