@@ -1,4 +1,4 @@
-﻿<Page x:Class="FairyTaleGCR.Stage15"
+﻿<Page x:Class="FairyTaleGCR.Stage16"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,64 +6,40 @@
       xmlns:local="clr-namespace:FairyTaleGCR"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Stage15">
+      Title="Stage16">
 
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/img/Holl.jpg"/>
         </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
-            Text="Взяв нож вы снова вышли из комнаты и попали в гостиную. За одной из дверей ней раздаются непонятные звуки. "
+            Text="Вы подкрались к двери и очень медленно начали открывать её. Дверь издовала пронизывающий, скрипящий звук. Открыв  дверь вы увидели...."
             TextWrapping="Wrap"
             FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
+            
             Foreground="White" FontFamily="Segoe Script" HorizontalAlignment="Center"
             />
         <Button
-            x:Name="btnChek"
+            x:Name="btnMoney"            
             FontSize="25"
             Grid.Row="1"
-            Width="200"
+            Width="230"
             Height="70"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
             Margin="70 20" 
             BorderBrush="White" 
-            Foreground="White" Click="btnChek_Click" 
+            Foreground="White" Click="btnMoney_Click"  
             >
             <TextBlock
-                Text="Проверить что за дверью"
-                TextWrapping="Wrap"
-                />
-            <Button.Background>
-                <SolidColorBrush Opacity="0"/>
-            </Button.Background>
-        </Button>
-        <Button
-            x:Name="btnLaN"
-            FontSize="25"
-            Grid.Row="1"
-            Grid.Column="2"
-            Width="150"
-            Height="70"
-            VerticalAlignment="Bottom"
-            HorizontalAlignment="Left"
-            Margin="70 20" 
-            BorderBrush="White" 
-            Foreground="White" Click="btnLaN_Click" 
-            >
-            <TextBlock
-                Text="Осмотреть гостинную"
+                Text="Next"
                 TextWrapping="Wrap"
                 />
             <Button.Background>

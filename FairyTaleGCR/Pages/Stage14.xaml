@@ -17,7 +17,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
-            Text="Если выбрать оттолкнуть маньяка: то маньяк задевает шкаф, он падает и шкаф падает на него сверху. В итоге персонаж выбегает в окно"
+            Text="Собрав всю силу воли в кулак он отталкивает маньяка, а тот в смою очередь спотыкается о выпирающую из пола доску. Пытаясь сохранить равновесие он хватается за шкаф и тянет его за собой. Вся конструкция  падает на маньяка, тем самым не оставляя ему шансов...."
             TextWrapping="Wrap"
             FontSize="30"
             Grid.ColumnSpan="2"
@@ -36,7 +36,8 @@
             HorizontalAlignment="Right"
             Margin="80 30" 
             BorderBrush="White" 
-            Foreground="White" Click="btnENT_Click" 
+            Foreground="White" 
+            Click="btnENT_Click" 
             >
             <Button.Background>
                 <SolidColorBrush Opacity="0"/>

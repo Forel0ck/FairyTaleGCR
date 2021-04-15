@@ -16,23 +16,21 @@ using System.Windows.Shapes;
 namespace FairyTaleGCR
 {
     /// <summary>
-    /// Логика взаимодействия для Stage15.xaml
+    /// Логика взаимодействия для Stage16.xaml
     /// </summary>
-    public partial class Stage15 : Page
+    public partial class Stage16 : Page
     {
-        public Stage15()
+        public Stage16()
         {
             InitializeComponent();
         }
 
-        private void btnChek_Click(object sender, RoutedEventArgs e)
+        private void btnMoney_Click(object sender, RoutedEventArgs e)
         {
-            Transition.MainFrame.Navigate(new Stage16());
-        }
+            MessageBox.Show("Данная сюжетная ветка является уникальной и потому платная. " +
+                " Для продолжения игры оформите подписку за $9.99 .");
 
-        private void btnLaN_Click(object sender, RoutedEventArgs e)
-        {
-            Transition.MainFrame.Navigate(new Stage5());
+            Transition.MainFrame.Navigate(new Stage15());
         }
     }
 }
