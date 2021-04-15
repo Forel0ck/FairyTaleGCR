@@ -9,7 +9,9 @@
       Title="Stage9">
 
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/img/Blood room.jpg"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>

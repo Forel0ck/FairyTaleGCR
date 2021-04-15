@@ -53,7 +53,7 @@
             HorizontalAlignment="Center"
             Background="Black" 
             Foreground="White"
-            GotFocus="tbEN_GotFocus"
+            GotFocus="tbEN_GotFocus" KeyDown="tbEN_KeyDown" 
             />
         <Button
             Content="Continue"
@@ -66,7 +66,7 @@
             HorizontalAlignment="Left"
             Margin="50 30"
             Background="Black"
-            BorderBrush="White"
+            BorderBrush="White" Click="btnC_Click"
             >
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

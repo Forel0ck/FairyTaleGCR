@@ -100,6 +100,7 @@
     <Compile Include="Pages\StartPage.xaml.cs">
       <DependentUpon>StartPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="People.cs" />
     <Compile Include="Transition.cs" />
     <Page Include="Pages\Beginning.xaml">
       <SubType>Designer</SubType>
@@ -231,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\room2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\Blood room.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

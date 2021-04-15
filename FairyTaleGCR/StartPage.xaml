@@ -39,7 +39,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <TextBox
+        <TextBo
             Text="Enter nickname"
             x:Name="tbEN"
             Grid.Row="1"
