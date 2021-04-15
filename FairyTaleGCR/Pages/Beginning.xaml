@@ -18,7 +18,7 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <TextBlock
@@ -27,16 +27,16 @@
             Margin="30"
             TextWrapping="Wrap"
             Foreground="White"
-            FontSize="20" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            FontSize="35" FontFamily="Segoe Script" HorizontalAlignment="Center"
             />
         <Button
             x:Name="btnLA"
             Content="Осмотреться"
-            FontSize="20"
+            FontSize="30"
             Grid.Column="0"
             Grid.Row="1"
-            Width="140"
-            Height="50"
+            Width="240"
+            Height="60"
             Margin="30 25"
             HorizontalAlignment="Right"
             VerticalAlignment="Bottom"
@@ -50,16 +50,19 @@
             x:Name="btnUN"
             Grid.Column="1"
             Grid.Row="1"
-            Width="240"
-            Height="50"
+            Width="300"
+            Height="60"
             Margin="30 25"
             HorizontalAlignment="Left"
-            VerticalAlignment="Bottom"
-            Content="Попытаься развязаться" 
-            FontSize="20"
+            VerticalAlignment="Bottom" 
+            FontSize="25"
             Foreground="White"
             Click="btnUN_Click"
             >
+            <TextBlock
+                Text="Попытаться развязаться"
+                TextWrapping="Wrap"
+                />
             <Button.Background>
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
             </Button.Background>

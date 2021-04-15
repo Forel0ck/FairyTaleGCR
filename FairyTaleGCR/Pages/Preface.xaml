@@ -6,24 +6,21 @@
       xmlns:local="clr-namespace:FairyTaleGCR"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Preface">
+      Title="Preface"
+>
 
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/img/house.jpg"/>
         </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="Получив от таинственной организации приглашение сыграть в квест, победитель которого получит солидную сумму, ты решаешь попытать удачу. Но совсем скоро тебе становится понятно, что тебя выбрали для игры не случайно, задания не такие безобидные, и тебе грозит вполне реальная опасность, а ставка в игре — твоя собственная жизнь."
             TextWrapping="Wrap"
-            FontSize="20"
+            FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -31,14 +28,14 @@
             />
         <Button
             Content="Next"
-            FontSize="20"
+            FontSize="30"
             Grid.Column="1"
             Grid.Row="1"
             Width="150"
-            Height="30"
+            Height="60"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
-            Margin="30" 
+            Margin="50 25" 
             BorderBrush="White" 
             Foreground="White" 
             Click="Button_Click"

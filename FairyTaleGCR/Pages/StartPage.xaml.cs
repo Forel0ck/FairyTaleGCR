@@ -29,7 +29,7 @@ namespace FairyTaleGCR
 
         private void btnNG_Click(object sender, RoutedEventArgs e)
         {
-            if ((tbEN.Text != "Enter nickname") || (tbEN.Text  !=""))
+            if ((tbEN.Text != "Enter nickname") && (tbEN.Text  !=""))
             {
                 using (StreamWriter sw = new StreamWriter(path, true))
                 {
@@ -63,7 +63,8 @@ namespace FairyTaleGCR
 
         private void btnC_Click(object sender, RoutedEventArgs e)
         {
-
+            Transition.MainFrame.Navigate(new Saves());
         }
+
     }
 }

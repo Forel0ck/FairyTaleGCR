@@ -101,6 +101,9 @@
       <DependentUpon>StartPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="People.cs" />
+    <Compile Include="Saves.xaml.cs">
+      <DependentUpon>Saves.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Transition.cs" />
     <Page Include="Pages\Beginning.xaml">
       <SubType>Designer</SubType>
@@ -182,6 +185,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Saves.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

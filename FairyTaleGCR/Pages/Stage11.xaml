@@ -23,7 +23,7 @@
         <TextBlock
             Text="После того как вы вошли в комнату, поняли, что в первый раз упустили много деталей . За шкафом со стеклянными банками вы обнаружили просвет , это было окно. Так же над столом с оборудованием находился стеллаж, на котором лежали книги про медицину, несколько больших ножей и небольшой кусок бумаги на которой были написаны мужские имена ."
             TextWrapping="Wrap"
-            FontSize="18"
+            FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -31,10 +31,10 @@
             />
         <Button
             x:Name="btnPB"
-            FontSize="20"
+            FontSize="27"
             Grid.Row="1"
-            Width="170"
-            Height="60"
+            Width="220"
+            Height="75"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
             Margin="70 35" 
@@ -52,11 +52,11 @@
         </Button>
         <Button
             x:Name="btnTake"
-            FontSize="20"
+            FontSize="27"
             Grid.Row="1"
             Grid.Column="2"
-            Width="170"
-            Height="60"
+            Width="220"
+            Height="75"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Left"
             Margin="70 35" 

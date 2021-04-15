@@ -13,13 +13,13 @@
             <ImageBrush ImageSource="/img/Holl.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="Вы подошли к двери и попытались открыть ее, но она не открывалась. Тогда вы решили достать связку ключей и попробовать подобрать ключ. Их было 7"
             TextWrapping="Wrap"
-            FontSize="18"
+            FontSize="35"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -28,10 +28,10 @@
         <Button
             x:Name="btnPUK"
             Content="Начать подбирать ключи"
-            FontSize="20"
+            FontSize="27"
             Grid.Row="1"
-            Width="250"
-            Height="30"
+            Width="350"
+            Height="50"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
             Margin="70 30" 

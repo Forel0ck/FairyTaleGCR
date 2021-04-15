@@ -14,23 +14,23 @@
         </Grid.Background>
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
-            Text="Во время попытки освободить себя, вы зацепили спинкой стула шкаф со стеклянными банками. Они начали падать и вас услышали. В комнату вбежал незнакомый ва человек и воткнул скальпел прямо в сонную артерию"
+            Text="Во время попытки освободить себя, вы зацепили спинкой стула шкаф со стеклянными банками. Они начали падать и вас услышали. В комнату вбежал больной незнакомец и воткнул скальпел прямо в сонную артерию"
             Grid.ColumnSpan="2"
             TextWrapping="Wrap"
             Margin="30"
             Foreground="White"
-            FontSize="20" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            FontSize="30" FontFamily="Segoe Script" HorizontalAlignment="Center"
             />
         <Button
             x:Name="btnEnd1"
-            FontSize="20"
+            FontSize="30"
             Content="New Game"
             Grid.Row="1"
-            Width="140"
+            Width="200"
             Height="50"
             Margin="10"
             HorizontalAlignment="Center"

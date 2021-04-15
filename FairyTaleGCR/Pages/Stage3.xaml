@@ -13,27 +13,27 @@
             <ImageBrush ImageSource="/img/room2.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
-            Text="Вы увидели перед собой металлический стол на котором лежали медицинские инструменты, среди которых находился скальп. Так же во время осмотра, вы обнаружили сзади себя шкаф с стеклянными банками в которых находились человеческие органы. Вы подошли к столу и взяли скальпел, чтобы перерезать веревки. Во время освобождения вы порезались, у вас идет кровь. В конце комнаты вы увидели затертую дверь. Она была открыта. Вы выходите за пределы комнаты..."
+            Text="Вы увидели перед собой металлический стол на котором лежало куча медицинского борохла, среди которого находился скальпель. Позади себя вы обнаружили сзади себя шкаф с стеклянными банками в которых находились человеческие органы. Вы подошли к столу и взяли скальпель,чтобы перерезать веревки. Казалось бы все стало куда лучше прежнего,но во время освобождения вы порезались,на руках подступает кровь. В конце комнаты вы увидели затертую дверь. Она была открыта. Вы выходите за пределы комнаты..."
             Grid.ColumnSpan="2"
             TextWrapping="Wrap"
-            Margin="20"
+            Margin="30"
             Foreground="White"
-            FontSize="20" FontFamily="Segoe Script" HorizontalAlignment="Center"
+            FontSize="30" FontFamily="Segoe Script" HorizontalAlignment="Center"
             />
         <Button
             x:Name="btnNext1"
             Content="Next"
-            FontSize="20"
             Grid.Row="1"
-            Width="150"
-            Height="30"
+            FontSize="30"
+            Width="200"
+            Height="60"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
-            Margin="30" 
+            Margin="50 30" 
             BorderBrush="White" 
             Foreground="White"
             Click="btnNext1_Click" 

@@ -17,13 +17,13 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="При осмотре вы обнаружили много странных вещей. Среди них был старый альбом с черно-белыми фотографиями, на которых были изображены только мужчины. Так же рядом лежала связка ключей и фонарик."
             TextWrapping="Wrap"
-            FontSize="18"
+            FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -32,10 +32,10 @@
             />
         <Button
             x:Name="btnKey"            
-            FontSize="20"
+            FontSize="25"
             Grid.Row="1"
             Width="230"
-            Height="60"
+            Height="70"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
             Margin="70 20" 
@@ -52,11 +52,11 @@
         </Button>
         <Button
             x:Name="btnLP"           
-            FontSize="20"
+            FontSize="25"
             Grid.Row="1"
             Grid.Column="2"
             Width="230"
-            Height="60"
+            Height="70"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Left"
             Margin="70 20" 

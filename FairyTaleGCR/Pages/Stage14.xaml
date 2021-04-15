@@ -13,13 +13,13 @@
             <ImageBrush ImageSource="/img/room2.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="Если выбрать оттолкнуть маньяка: то маньяк задевает шкаф, он падает и шкаф падает на него сверху. В итоге персонаж выбегает в окно"
             TextWrapping="Wrap"
-            FontSize="18"
+            FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -28,13 +28,13 @@
         <Button
             x:Name="btnENT"
             Content="The End"
-            FontSize="20"
+            FontSize="30"
             Grid.Row="1"
             Width="150"
-            Height="30"
+            Height="50"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
-            Margin="70 30" 
+            Margin="80 30" 
             BorderBrush="White" 
             Foreground="White" Click="btnENT_Click" 
             >

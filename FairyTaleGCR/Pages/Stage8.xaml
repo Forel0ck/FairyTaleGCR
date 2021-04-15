@@ -13,13 +13,13 @@
             <ImageBrush ImageSource="/img/house.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="Из-за того что маньяк последние несколько лет сидел только в соем доме в полной темноте, после открытия двери, солнечный свет ослепил его и это сыграло вам на руку. Вы успели выбраться из дома и добежать до ближайшего города."
             TextWrapping="Wrap"
-            FontSize="18"
+            FontSize="30"
             Grid.ColumnSpan="2"
             Grid.Row="0"
             Margin="30"
@@ -28,10 +28,10 @@
         <Button
             x:Name="btnExt"
             Content="Exit"
-            FontSize="20"
+            FontSize="30"
             Grid.Row="1"
             Width="150"
-            Height="30"
+            Height="50"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"
             Margin="70 30" 
