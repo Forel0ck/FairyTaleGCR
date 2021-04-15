@@ -18,7 +18,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock
-            Text="Выйдя из комнаты вы попадаете в гостинную. "
+            Text="Выйдя из комнаты вы попадаете в гостинную."
             TextWrapping="Wrap"
             FontSize="18"
             Grid.ColumnSpan="2"
