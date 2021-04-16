@@ -34,7 +34,7 @@
             x:Name="btnKey"            
             FontSize="25"
             Grid.Row="1"
-            Width="230"
+            Width="240"
             Height="70"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Right"

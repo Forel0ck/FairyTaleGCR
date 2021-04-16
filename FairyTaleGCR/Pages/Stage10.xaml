@@ -27,7 +27,7 @@
             />
         <Button
             x:Name="btnBHD"
-            Content="Exit"
+            Content="The End"
             FontSize="30"
             Grid.Row="1"
             Width="150"

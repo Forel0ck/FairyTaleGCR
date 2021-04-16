@@ -46,12 +46,15 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
             VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Background="Black" 
+            HorizontalAlignment="Center" 
             Foreground="White"
             GotFocus="tbEN_GotFocus" 
-            KeyDown="tbEN_KeyDown"
-            />
+            KeyDown="tbEN_KeyDown" BorderBrush="White"
+            >
+            <TextBox.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </TextBox.Background>
+        </TextBox>
 
         <Button
             x:Name="btnNG"
@@ -60,13 +63,15 @@
             Grid.Column="0"
             FontSize="45"
             Height="70"
-            Width="170"
+            Width="150"
             Margin="50 30"
             VerticalAlignment="Center"
             HorizontalAlignment="Center" 
-            BorderBrush="White"
-            Background="Black" Click="btnNG_Click"
+            BorderBrush="White" Click="btnNG_Click"
             >
+            <Button.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Button.Background>
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="1"/>

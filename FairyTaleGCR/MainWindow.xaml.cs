@@ -25,7 +25,11 @@ namespace FairyTaleGCR
             Transition.MainFrame = MainFrame;
 
             MainFrame.Navigate(new StartPage());
+
+
         }
 
     }
 }
+        
+
