@@ -9,5 +9,7 @@ namespace FairyTaleGCR
     class People
     {
         public string xName { get; set; }
+
+        public int Id { get; set; }
     }
 }

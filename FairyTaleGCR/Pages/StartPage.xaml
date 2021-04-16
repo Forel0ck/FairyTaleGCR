@@ -12,10 +12,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/img/house.jpg"/>
         </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
@@ -56,40 +52,20 @@
             GotFocus="tbEN_GotFocus" 
             KeyDown="tbEN_KeyDown"
             />
-        <Button
-            Content="Continue"
-            x:Name="btnC"
-            Grid.Row="2"
-            Grid.Column="1"
-            FontSize="28"
-            Width="150"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Left"
-            Margin="50 30"
-            Background="Black"
-            BorderBrush="White" Click="btnC_Click"
-            >
-            <Button.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White" Offset="1"/>
-                    <GradientStop Color="White" Offset="0.44"/>
-                    <GradientStop Color="Red" Offset="0.82"/>
-                </LinearGradientBrush>
-            </Button.Foreground>
-        </Button>
 
         <Button
             x:Name="btnNG"
-            Content="New Game"
+            Content="Start"
             Grid.Row="2"
             Grid.Column="0"
-            FontSize="28"
-            Width="150"
+            FontSize="45"
+            Height="70"
+            Width="170"
             Margin="50 30"
             VerticalAlignment="Center"
-            HorizontalAlignment="Right" 
+            HorizontalAlignment="Center" 
             BorderBrush="White"
- Background="Black" Click="btnNG_Click"
+            Background="Black" Click="btnNG_Click"
             >
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
